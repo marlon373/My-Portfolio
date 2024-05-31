@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <label class="switch">
+            <input type="checkbox" id="modeToggle">
+            <span class="slider round"></span>
+        </label>
+    </header>
+    <nav>
+        <h2 id="logo">Marlon Thomas E. Martinez</h2>
+        <ul class="navigation-items">
+            <li class="navigation-item"><a href="#about-me">About Me</a></li>
+            <li class="navigation-item"><a href="#project">Project</a></li>
+            <li class="navigation-item"><a href="#skill">Skill</a></li>
+            <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2>About Me</h2>
+                    <p>
+                        I’m Marlon Thomas E. Martinez, a passionate Full Stack Engineer and Android Developer with 
+                        a knack for creating seamless and user-friendly applications. My journey in the tech world has
+                        equipped me with a diverse set of skill, enabling me to bring innovative idea to life.
+                    </p>
+                </div>
+                <img src="./resources/image/The_Point_Man_by_ShortieBat.jpg" alt="A photo of me" class="portrait"/>
+            </div>
+        </section>
+
+        <section id="project">
+            <h2>Project</h2>
+                <ul class="project-items">
+                    <li class="project-items"><a href="https://github.com/marlon373/zodiacMixedMessage">zodiacMixedMessage</a></li>
+                </ul>
+        </section>
+        <section id="skill">
+            <h2>Skills</h2>
+            <div id="skills-container">
+              <img src="./resources/image/html-5.png" alt="Html" title="Html">
+              <img src="./resources/image/css-3.png" alt="Css" title="Css">
+              <img src="./resources/image/js.png" alt="JavaScript" title="JavaScript">
+              <img src="./resources/image/java.png" alt="Java" title="Java">
+              <img src="./resources/image/kotlin.png" alt="kotlin" title="kotlin">
+              <img src="./resources/image/android.png" alt="Android" title="Android">
+              <img src="./resources/image/git.png" alt="Git" title="Git">
+              <img src="./resources/image/github.png" alt="Github" title="Github">
+            </div>
+          </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
